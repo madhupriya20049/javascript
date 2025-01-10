@@ -1,0 +1,66 @@
+body {
+    background-color: gray;
+}
+.header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+}
+.nav-container {
+    background-color: gray;
+    height: 20px;
+    align-items: center;
+}
+.nav-list {
+    color: rgb(75, 35, 186);
+    justify-content: space-between;
+}
+.image-container {
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    margin-right: 5px;
+}
+.image-box {
+    background-color: white;
+    width: 250px;
+    height: 280px;
+    margin-right: 5px;
+}
+.image {
+    width: 240px;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 200px;
+}
+.image-caption {
+    margin-left: 5px;
+}
+.main-image {
+    margin-left: 300px;
+    width: 500px;
+    margin-top: -150px;
+}
+.description {
+    margin-left: 300px;
+}
+.title {
+    margin-left: 300px;
+    margin-top: -400px;
+    font-weight: bold;
+}
+.continue-button {
+    background-color: rgb(17, 90, 200);
+    margin-left: 300px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 350px;
+}
+.icon {
+    width: 15px;
+}
