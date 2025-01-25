@@ -39,3 +39,30 @@ c[0].style.textAlign="center";
 c[1].style.backgroundColor="orange";
 c[1].style.textAlign="center";
 
+let c1=document.getElementsByTagName("p")
+console.log(c1);
+c1[1].style.color="red"
+c1[1].textContent="Hello"
+c1[0].style.color="brown"
+c1[0].style.background="orange"
+
+let d=document.getElementsByName("demo2")
+console.log(d);
+d[1].style.backgroundColor="crimson"
+d[0].style.color="crimson"
+d[0].style.backgroundColor="pink"
+d[1].style.fontSize="30px"
+d[1].style.textAlign="center"
+
+let f=document.querySelectorAll("#demo")//all the elements will be printed using node-list
+console.log(f);
+
+let e=document.querySelector(".demo1")//only first element will be printed
+console.log(e);
+console.log(e[1]);
+let e1=document.querySelectorAll(".demo1")
+console.log(e1);
+
+
+
+
