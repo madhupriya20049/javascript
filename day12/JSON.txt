@@ -1,0 +1,29 @@
+JSON: (JavaScript Object Notation)
+-->it is a plain text file used to store data in the form of key and value pair.
+-->Where all the keys should be enclosed in a double codes.
+-->ReactJS will consists of JSON.So JSON and ReactJS both are same.
+-->Two methods:
+   *stringify()
+   -->will convert object to JSON format.
+   *parse()
+   -->will convert JSON to object format.
+
+How to create a JSON:
+Step-1: create a .json file.
+Step-2: create a data in the form of key and value pair.
+        The key should be enclosed with double quotes.
+        As a value we should not use undefined and function data type.
+
+        -->we will create a array of object -- [{ } , { } ,{ } ,....]
+
+We can fetch the JSON using 3-ways:
+-->fetch()
+   1.we need to pass an argument in fetch,as an argument we can pass json file.
+   2.To print that we use .then() method.
+   3.The response is called as arraybuffer which humans can't understand.
+   4.HTTP response status codes - to know the types of errors.
+   5.fakestore api website we can get fake apis.
+
+-->AJAX
+
+-->Axios - get(),post(),put(),delete()
