@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        #div{
+            display:flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+        img{
+            height:200px;
+            width: 200px;
+            border-radius: 100%;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <select name="select" id="select"></select>
+    <!-- <select name="select" id="select"></select>
     <input list="demo1">
-    <datalist id="demo1"></datalist>
+    <datalist id="demo1"></datalist> -->
+    <input type="search"name="search"id="search">
+    <button id="btn">search</button>
     <script src="./api2.js"></script>
 </body>
 </html>
